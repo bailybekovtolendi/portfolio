@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <p>Ғылыми-әдістемелік жұмыс</p>
+    </div>
+    <div id="section2" class="border">
+        <img src="img/w1.jpg" width="730" height="100%" />
+        <img src="img/w2.jpg" width="730" height="100%" />
+        <img src="img/w3.jpg" width="730" height="100%" />
+        <img src="img/w4.jpg" width="730" height="100%" />
+        <img src="img/w5.jpg" width="730" height="100%" />
+        <img src="img/w6.jpg" width="730" height="100%" />
+        <img src="img/w7.jpg" width="730" height="100%" />
+        <img src="img/w8.jpg" width="730" height="100%" />
+        <img src="img/w10.jpg" width="730" height="100%" />
+        <img src="img/w11.jpg" width="730" height="100%" />
+        <img src="img/w12.jpg" width="730" height="100%" />
+        <img src="img/w13.jpg" width="730" height="100%" />
+        <img src="img/w14.jpg" width="730" height="100%" />
+        <img src="img/w15.jpg" width="730" height="100%" />
+        <img src="img/w16.jpg" width="730" height="100%" />
+        <img src="img/w17.jpg" width="730" height="100%" />
+    </div>
+    <div id="header">
+        <p>Ашық сабақ</p>
+    </div>
+    <div id="section2" class="border">
+        <img src="img/a1.jpg" width="730" height="100%" />
+        <img src="img/a2.jpg" width="730" height="100%" />
+        <img src="img/a3.jpg" width="730" height="100%" />
+        <img src="img/a4.jpg" width="730" height="100%" />
+    </div>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function() {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    </script>
+</body>
+
+</html>

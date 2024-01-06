@@ -1,0 +1,239 @@
+.navbar {
+    width: 100%;
+    background-color: #2b6777;
+    height: 70px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 4;
+}
+
+.navbars {
+    width: 100%;
+    background-color: #2b6777;
+    height: 70px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.centerside {
+    color: white;
+    font-size: 160%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.section1 {
+    width: 100%;
+    background-color: #2b6777;
+    height: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate__animated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animate__animated img {
+    width: 300px;
+    border-radius: 100%;
+}
+
+.section2 {
+    width: 100%;
+    height: 260px;
+    background-color: #2b6777;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+#first2 {
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#second2 {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 500px;
+    margin-left: 20%;
+    margin-right: 20%;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .section2 {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section2 {
+        height: 400px;
+        padding-bottom: 70px;
+    }
+    #first2 {
+        font-size: 40px;
+    }
+    #second2 {
+        font-size: 20px;
+    }
+}
+
+.section3 {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tortb {
+    width: 340px;
+    height: 300px;
+    border-radius: 25px;
+    margin-right: 3%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    border: black solid 0.5px;
+}
+
+.tortb p {
+    color: white;
+    z-index: 2;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#t1 {
+    background-image: url('img/t.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#t1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#t2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#t3::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#t4::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#t5::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#t2 {
+    background-image: url('img/1.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 5.5;
+}
+
+#t3 {
+    background-image: url('img/2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#t4 {
+    background-image: url('img/3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#t5 {
+    background-image: url('img/4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(28, 145, 96);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+#btnScrollToTop:active {
+    background-color: rgb(19, 88, 19);
+}

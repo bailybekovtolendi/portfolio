@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <p class="centerside">Портфолио</p>
+    </div>
+    <div class="navbars">
+
+    </div>
+    <div class="section1">
+        <div class="animate__animated animate__rotateIn">
+            <img src="img/t.jpg">
+        </div>
+    </div>
+    <div class="section2">
+        <p id="first2">Байлыбеков Толенди Рахметуллаевич</p>
+        <p class="typing" id="second2"></p>
+    </div>
+    <div class="section3">
+        <a href="pedagogmalimet.html" class="tortb" id="t1" data-aos="flip-left">
+            <p>Педагог туралы мәлімет</p>
+        </a>
+        <a href="pedagogkyzmet.html" class="tortb" id="t2" data-aos="flip-left">
+            <p>Педагог қызметінің нәтижесі</p>
+        </a>
+        <a href="gylymyadistemelikjumys.html" class="tortb" id="t3" data-aos="flip-left">
+            <p>Ғылыми-әдістемелік жұмыс</p>
+        </a>
+        <a href="tysjumystar.html" class="tortb" id="t4" data-aos="flip-left">
+            <p>Пән бойынша сыныптан тыс жұмыстар</p>
+        </a>
+        <a href="okubaza.html" class="tortb" id="t5" data-aos="flip-left">
+            <p>Оқу-материалдық база</p>
+        </a>
+    </div>
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function() {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+        AOS.init({
+            duration: 2000
+        });
+    </script>
+    <script type="text/javascript">
+        var typed = new Typed(".typing", {
+            strings: ["Тараз қаласы әкімдігінің білім бөлімі Қаратай Тұрысов атындағы №53 мектеп-гимназиясы коммуналдық мемлекеттік мекемесінің дене тәрбиесі мұғалімі"],
+            typeSpeed: 30,
+            showCursor: true
+
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</body>
+
+</html>

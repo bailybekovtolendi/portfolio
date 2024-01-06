@@ -1,0 +1,100 @@
+#header {
+    width: 100%;
+    height: 180px;
+    background-color: #2b6777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+#header>p {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#section1 {
+    margin-left: 17%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 767px) {
+    #section1 {
+        margin-left: 5%;
+    }
+    #header>p {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #section2>img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #section2>img {
+        width: 100%;
+        height: 100%;
+    }
+    .text {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+#section2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section2>img {
+    margin-bottom: 50px;
+    /* border: black solid 2px; */
+}
+
+.border img {
+    border: black solid 2px;
+}
+
+.text {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(28, 145, 96);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+#btnScrollToTop:active {
+    background-color: rgb(19, 88, 19);
+}
